@@ -19,6 +19,10 @@ jobs:
           globs: |
             README.md
             **/*.md
+          config: |
+            {
+              "MD012": false
+            }
 
       - name: Verify certification assets
         run: |
