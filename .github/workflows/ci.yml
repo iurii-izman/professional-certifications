@@ -1,0 +1,29 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Lint markdown
+        uses: DavidAnson/markdownlint-cli2-action@v20
+        with:
+          globs: |
+            README.md
+            **/*.md
+
+      - name: Verify certification assets
+        run: |
+          test -f README.md
+          test -f Iurii_Izman_CV_AI_Engineer_EN.pdf
+          test -d 1c
+          test -d bitrix24
+          test -d business-analysis
