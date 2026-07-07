@@ -3,6 +3,15 @@
 Public record of verified professional certifications and structured learning
 evidence across CRM, ERP, business analysis, and automation-adjacent domains.
 
+## Public Review Path
+
+- [English CV PDF](Iurii_Izman_CV_AI_Engineer_EN.pdf)
+- [Bitrix24 administration track](bitrix24/administration/README.md)
+- [Bitrix24 automation track](bitrix24/automation/README.md)
+- [Bitrix24 CRM track](bitrix24/crm/README.md)
+- [1C ERP track](1c/erp/README.md)
+- [Screenshots plan](docs/screenshots_plan.md)
+
 ## Coverage
 
 This repository documents expertise in:
